@@ -1,0 +1,22 @@
+There are several files in this directory that explore usage of various
+system calls/library functions related to memory management:
+
+memory_management handout.pdf: provides brief descriptions of various
+memory management related funtions.
+
+process-memory-layout.c: explores the virtual addresses of code, data,
+heap and stack segments of a process
+
+brk-explore.c: experiments wit brk() and sbrk()
+
+malloc-explore.c: explores malloc functions
+
+virtual-mem-explore.c: explores getrlimit() and setrlimit()
+
+mmap-example-write.c: explores writing to a file using mmap( ) and munmap()
+
+mmap-example-read.c: explores reading from the files created using the
+mmap-explore-write program using mmap( ) and munmap()
+
+To compile: gcc -o <executable-filename> filename
+
